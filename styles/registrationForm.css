@@ -1,8 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #EDF2F7;
+}
+
+body {
+    background-color: #edf2f7;
     font-family: Nunito;
+}
+
+fieldset {
+    border: none;
+}
+
+.registration-form {
+    width: 443px;
+    height: 889px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-title {
@@ -23,15 +38,9 @@
     margin-top: 12px;
 }
 
-.reggistration-form {
-    width: 443px;
-    height: 889px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.input-title {
+
+.input-label {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -40,5 +49,51 @@
     margin-bottom: 4px;
 }
 
+.special-input, .regular-input, .languages-input {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
 
+.regular-input {
+    width: 100%;
+    height: 46px;
+    padding-left: 7px;
+}
+
+.form-language-field {
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.languages-input {
+    width: 200px; 
+    height: 91px;
+}
+
+.radio-button-field {
+    margin-bottom: 10px;
+}
+
+.radio-button-field::-webkit-scrollbar{
+    display: none;
+  }
+
+.form-submit-button {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140.62%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #718096;
+
+}
 
